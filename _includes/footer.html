@@ -1,5 +1,5 @@
-<footer>
-  <span>
-    &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
-  </span>
-</footer>
+{% include base_path %}
+{% assign split_path = page.path | split: "/" %}
+{% assign locale = split_path[1] %}
+{% assign titles = site.data.navigation[locale].footer %}
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} - <a href="https://github.com/Plailect/Guide_3DS">{{ titles[0].title }}</a> - <a href="site-navigation">{{ titles[1].title }}</a> - <a href="why-ads">{{ titles[2].title }}</a></div>
