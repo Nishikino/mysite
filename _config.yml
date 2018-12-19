@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "nord"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "3DS Hacks Guide"
+title                    : "Persona 4 Golden"
 title_separator          : "-"
-name                     : "Plailect"
-description              : "Full sighax CFW Guide"
+name                     : "Maki"
+description              : "Max Social Link Guide"
 url                      : "https://skycladobserver.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "skycladobserver.xyz"
 baseurl                  : # the subpath of your site, e.g. "/blog"
