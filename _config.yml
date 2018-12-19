@@ -16,7 +16,7 @@ description              : "Full sighax CFW Guide"
 url                      : "https://skycladobserver.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "skycladobserver.xyz"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/Guide_3DS" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Nishikino/nishikino.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -51,8 +51,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : jVXoPK_-qzKJp4SScnZYpOIX3yDXfGnAoTBJYixUOwg
-bing_site_verification   : F3532011519E308583A0A2CAF2DD69E8
+# google_site_verification : jVXoPK_-qzKJp4SScnZYpOIX3yDXfGnAoTBJYixUOwg
+# bing_site_verification   : F3532011519E308583A0A2CAF2DD69E8
 alexa_site_verification  :
 yandex_site_verification :
 
