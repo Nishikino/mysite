@@ -1,7 +1,7 @@
 ---
 title: Markup
 layout: tag
-permalink: /getstarted/
+permalink: /tags/markup/
 taxonomy: markup
 ---
 
