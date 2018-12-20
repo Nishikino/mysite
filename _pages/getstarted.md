@@ -1,6 +1,6 @@
 ---
 permalink: /getstarted/
-title: "About"
+title: "Get Started"
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
