@@ -1,5 +1,6 @@
 ---
-title: "FAQ"
+title: "Get Started"
+permalink: /getstarted/
 ---
 
 <a name="faq_latestfw" />**Q:** *I am on the latest system version. Is my device hackable?*    
