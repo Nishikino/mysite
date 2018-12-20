@@ -1,52 +1,85 @@
 ---
-title: "Get Started"
 permalink: /getstarted/
+title: "About"
+excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+layouts_gallery:
+  - url: /assets/images/mm-layout-splash.png
+    image_path: /assets/images/mm-layout-splash.png
+    alt: "splash layout example"
+  - url: /assets/images/mm-layout-single-meta.png
+    image_path: /assets/images/mm-layout-single-meta.png
+    alt: "single layout with comments and related posts"
+  - url: /assets/images/mm-layout-archive.png
+    image_path: /assets/images/mm-layout-archive.png
+    alt: "archive layout example"
+last_modified_at: 2018-11-21T14:49:33-05:00
+toc: true
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version. Is my device hackable?*    
-**A:** Yes
+Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 
-<a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
-**A:** Use [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
+{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
 
-<a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc). Is that something I need?*    
-**A:** No. boot9strap is a superior method of loading hax that runs early in boot.
+[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
 
-<a name="faq_gatewaysaves" />**Q:** *How do I move saves from an existing Gateway setup to device installed games?*    
-**A:** See [this](https://gbatemp.net/threads/425743/)
+## Notable Features
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
+- Bundled as a "theme gem" for easier install/upgrading.
+- Compatible with GitHub Pages.
+- Support for Jekyll's built-in Sass/SCSS preprocessor.
+- Nine different skins (color variations).
+- Several responsive layout options (single, archive index, search, splash, and paginated home page).
+- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
+- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
+- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), [utterances](https://utteranc.es/), static-based via [Staticman v1 and v2](https://staticman.net/), and custom).
+- [Google Analytics](https://www.google.com/analytics/) support.
+- UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hindi, Hungarian, Indonesian, Italian (Italiano), Japanese, Korean, Nepali (Nepalese), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Turkish (Türkçe), and Vietnamese.
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! Custom Firmware not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+## Demo Pages
 
-<a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
-**A:** Luma3DS supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+| Name                                        | Description                                           |
+| ------------------------------------------- | ----------------------------------------------------- |
+| [Post with Header Image][header-image-post] | A post with a large header image. |
+| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
+| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
+| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
+| [Sample Collection Page][sample-collection] | Single page from a collection. |
+| [Categories Archive][categories-archive] | Posts grouped by category. |
+| [Tags Archive][tags-archive] | Posts grouped by tag. |
 
-<a name="faq_updates" />**Q:** *Is it safe to update CFW SysNAND?*    
-**A:** Yes. This is safe, stop asking about it.
+For even more demo pages check the [posts archive][year-archive].
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support (in English), ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+[header-image-post]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
+[gallery-post]: {{ "" | relative_url }}{% post_url 2010-09-09-post-gallery %}
+[html-tags-post]: {{ "" | relative_url }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
+[syntax-post]: {{ "" | relative_url }}{% post_url 2013-08-16-markup-syntax-highlighting %}
+[sample-collection]: {{ "/recipes/chocolate-chip-cookies/" | relative_url }}
+[categories-archive]: {{ "/categories/" | relative_url }}
+[tags-archive]: {{ "/tags/" | relative_url }}
+[year-archive]: {{ "/year-archive/" | relative_url }}
 
-<a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
-**A:** Yes!
+---
 
-<a name="faq_ge128gbsd" />**Q:** *Can I use a 128GB (or larger) SD card?*    
-**A:** Yes, but some users have reported slowdowns when using such large sizes. Note that you cannot format the card with exFAT; you need to format it with FAT32.
+## Credits
 
-<a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
-**A:** Just copy all the files to the new SD card.
+### Icons + Demo Images:
 
-<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
-**A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
+- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
+- [Font Awesome](http://fontawesome.io/)
+- [Unsplash](https://unsplash.com/)
 
-<a name="faq_systransfer" />**Q:** *What about System Transfers?*    
-**A:** Once you have completed the guide, you can system transfer to and from an B9S 3DS or 2DS exactly like you would a regular stock console or EmuNAND (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
+### Other:
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-**A:** All you need is the ability to put files on an SD card!
+- [Jekyll](https://jekyllrb.com/)
+- [jQuery](https://jquery.com/)
+- [Susy](http://susy.oddbird.net/)
+- [Breakpoint](http://breakpoint-sass.com/)
+- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
+- [FitVids.JS](http://fitvidsjs.com/)
+- Greedy Navigation - [lukejacksonn](https://codepen.io/lukejacksonn/pen/PwmwWV)
+- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
+- [Lunr](http://lunrjs.com)
 
-<a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
-**A:** Please look at the [troubleshooting guide](troubleshooting).
+---
+
+Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
